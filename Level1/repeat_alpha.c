@@ -1,15 +1,15 @@
 #include <unistd.h>
 
-int ft_isupper(char alpha)
+int ft_isupper(char c)
 {
-    if (alpha <= 90 && alpha >= 65)
+    if (c <= 90 && c >= 65)
         return (1);
     return 0;
 }
 
-int ft_isalpha(char alpha)
+int ft_isalpha(char c)
 {
-    if ((alpha >= 'A' && alpha <= 'Z') || (alpha >= 'a' && alpha <= 'z'))
+    if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
         return (1);
     return (0);
 }
