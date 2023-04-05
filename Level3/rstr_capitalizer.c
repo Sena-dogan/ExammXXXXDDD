@@ -38,6 +38,7 @@ int main(int ac, char **av)
         while (arg < ac)
         {
             char *s = av[arg];
+            c = 0;
             while (s && s[c])
             {
                     if (ft_isupper(s[c]) && !(s[c + 1] == 32 || s[c + 1] == 0 || s[c + 1] == 9))
